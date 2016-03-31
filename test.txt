@@ -5,7 +5,7 @@ import java.util.*;
 public class java01 {
 	public static void main(String[] args){
 		Scanner in=new Scanner(System.in);
-		System.out.println("ÇëÊäÈëÊı×Ö£º");
+		System.out.println("è¯·è¾“å…¥æ•°å­—ï¼š");
 		int number=in.nextInt();
 		boolean tag=false;
 		int i,j;
@@ -16,11 +16,12 @@ public class java01 {
 			}
 		}
 		if(tag==true)
-			System.out.println(number+"²»ÊÇËØÊı");
+			System.out.println(number+"ä¸æ˜¯ç´ æ•°");
 		else
-			System.out.println(number+"ÊÇËØÊı");
+			System.out.println(number+"æ˜¯ç´ æ•°");
 	}
 }
-groundCount ÕÛ¿Û	groundPrice ¼Û¸ñ	numberBought ¹ºÂòÊıÁ¿
-ÌØµã£º1.Ã¿¸öÀà¶¼ÓĞ·â±ÕÇøÓò	2.ÀàÓëÀàÓĞÔËËãË³Ğò	3.´óÀà°üº¬Èô¸ÉĞ¡Àà	4.¸÷Àà¶¼ÓĞÒ»¶¨Èİ´íĞÔ	5.¸÷ÀàÊéĞ´ÓĞ¹æ·¶ĞÔ
-³ÌĞòÓÃ´¦£º¹ºÎï³µ
+groundCount æŠ˜æ‰£	groundPrice ä»·æ ¼	numberBought è´­ä¹°æ•°é‡
+ç‰¹ç‚¹ï¼š1.æ¯ä¸ªç±»éƒ½æœ‰å°é—­åŒºåŸŸ	2.ç±»ä¸ç±»æœ‰è¿ç®—é¡ºåº	3.å¤§ç±»åŒ…å«è‹¥å¹²å°ç±»	4.å„ç±»éƒ½æœ‰ä¸€å®šå®¹é”™æ€§	5.å„ç±»ä¹¦å†™æœ‰è§„èŒƒæ€§
+6.ç±»å¯ä»¥æ–°å»º	7.ç±»éœ€è¦å®šä¹‰å±æ€§å’Œæ–¹æ³•	8.åŒä¸€ç±»å¯å®šä¹‰ä¸åŒå¯¹è±¡	9.ä¸åŒå¯¹è±¡çš„å±æ€§æˆ–æ–¹æ³•ä¼šä¸åŒï¼Œä½†å¯ä»¥å±äºåŒä¸€ç±»
+ç¨‹åºç”¨å¤„ï¼šè´­ç‰©è½¦ï¼Œå•†å“é‡‡è´­ï¼Œå•†å“å¯¹æ¯”ï¼Œè´¦å•æ¸…ç®—ã€‚
